@@ -56,6 +56,8 @@ Then, a variety of useful package for performing relevant analyses in a context 
 ### For lecture 4: Characterize seascape configuration: spatial distribution and ocean transports you will need:
 
 ```{r}
+install.packages("ggmap")
+install.packages("ggplot2")
 install.packages("raster")
 install.packages("rgdal")
 install.packages("maptools")
@@ -74,7 +76,7 @@ install.packages("ape")
 install.packages("car")
 
 ```
-### For lecture 6: Genomic data preparation + preliminary analyses - Laura
+### For lecture 6: Genomic data preparation + preliminary analyses
 ```{r}
 if (!require("devtools")) install.packages("devtools")
 devtools::install_github("thierrygosselin/radiator")
@@ -87,7 +89,11 @@ Verify that package gdsfmt was installed and that you have package SeqArray vers
 devtools::package_info(pkgs = "SeqArray")
 ```
 
-### For lecture 7: Outlier detection - Laura
+### For lecture 7: Outlier detection
 ```{r}
 install.packages("pcadapt")
+install.packages("pcadapt") 
+install.packages("vcfR")
+install.packages("plyr")
+install.packages('qvalue')
 ```
