@@ -105,7 +105,6 @@ devtools::package_info(pkgs = "SeqArray")
 ### For lecture 7: Outlier detection
 ```{r}
 install.packages("pcadapt")
-install.packages("pcadapt") 
 install.packages("vcfR")
 install.packages("plyr")
 ```
