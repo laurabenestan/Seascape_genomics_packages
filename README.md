@@ -53,7 +53,7 @@ install.packages("devtools")
 
 Then, a variety of useful package for performing relevant analyses in a context of seascape genomic class are avaible in R: population genomics index, filtering SNPs, hierarchical analyses, multivariate analysis etc.
 
-### For lecture 4: Characterize seascape configuration: spatial distribution and ocean transports you will need:
+### For lecture 1 to 5
 
 ```{r}
 install.packages("ggmap")
@@ -86,7 +86,7 @@ install.packages("marmap")
 install.packages("viridis") 
 ```
 
-### For lecture 6: Genomic data preparation + preliminary analyses
+### For lecture 6 to 8
 ```{r}
 if (!require("devtools")) install.packages("devtools")
 devtools::install_github("thierrygosselin/radiator")
@@ -95,16 +95,12 @@ devtools::install_github('royfrancis/pophelper')
 install.packages("poppr")
 install.packages("adegenet")
 install.packages("assigner")
+install.packages("pcadapt")
+install.packages("vcfR")
+install.packages("plyr")
 ```
 
 Verify that package gdsfmt was installed and that you have package SeqArray version >= 1.28.1.
 ```{r}
 devtools::package_info(pkgs = "SeqArray")
-```
-
-### For lecture 7: Outlier detection
-```{r}
-install.packages("pcadapt")
-install.packages("vcfR")
-install.packages("plyr")
 ```
