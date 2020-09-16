@@ -42,6 +42,9 @@ brew cask install r
 brew cask install --appdir=/Applications rstudio
 ```
 
+## Install [BayeScan](http://cmpg.unibe.ch/software/BayeScan/download.html) 
+Bayescan is a command line based open source software that aim to detect natural selection from population based genetic data.
+
 ## R software: install R packages 
 First install devtools package that allows you to directly download R package available in github.
 ```{r}
@@ -50,7 +53,7 @@ install.packages("devtools")
 
 Then, a variety of useful package for performing relevant analyses in a context of seascape genomic class are avaible in R: population genomics index, filtering SNPs, hierarchical analyses, multivariate analysis etc.
 
-For lecture 4: Characterize seascape configuration: spatial distribution and ocean transports you will need:
+### For lecture 4: Characterize seascape configuration: spatial distribution and ocean transports you will need:
 
 ```{r}
 install.packages("raster")
@@ -85,10 +88,6 @@ devtools::package_info(pkgs = "SeqArray")
 ```
 
 ### For lecture 7: Outlier detection - Laura
-
-Install BayeScan (http://cmpg.unibe.ch/software/BayeScan/download.html) is a command line based open source software that aim to detect natural selection from population based genetic data.
-
-In R install PCAdapt that aim to detect outlier loci from an individual-based genetic dataset.
 ```{r}
 install.packages("pcadapt")
 ```
