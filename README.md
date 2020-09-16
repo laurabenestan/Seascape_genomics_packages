@@ -40,6 +40,9 @@ brew cask install --appdir=/Applications rstudio
 ## Install [BayeScan](http://cmpg.unibe.ch/software/BayeScan/download.html) 
 Bayescan is a command line based open source software that aim to detect natural selection from population based genetic data.
 
+## Install [SamBada](https://www.epfl.ch/labs/lasig/page-101934-en-html/sambada/)
+Samβada is an integrated software for landscape genomic analysis of large datasets.
+
 ## R software: install R packages 
 First install devtools package that allows you to directly download R package available in github.
 ```{r}
