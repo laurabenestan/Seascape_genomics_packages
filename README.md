@@ -108,5 +108,4 @@ install.packages("pcadapt")
 install.packages("pcadapt") 
 install.packages("vcfR")
 install.packages("plyr")
-install.packages('qvalue')
 ```
