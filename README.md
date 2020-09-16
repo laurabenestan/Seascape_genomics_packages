@@ -75,6 +75,8 @@ install.packages("adegraphics")
 install.packages("ape")
 install.packages("car")
 install.packages("sp")
+install.packages("marmap")
+install.packages("viridis") 
 ```
 
 ### For lecture 6: Genomic data preparation + preliminary analyses
@@ -83,6 +85,9 @@ if (!require("devtools")) install.packages("devtools")
 devtools::install_github("thierrygosselin/radiator")
 install.packages(c("ggplot2","gridExtra","gtable","label.switching","tidyr","devtools"),dependencies=T)
 devtools::install_github('royfrancis/pophelper')
+install.packages("poppr")
+install.packages("adegenet")
+install.packages("assigner")
 ```
 
 Verify that package gdsfmt was installed and that you have package SeqArray version >= 1.28.1.
