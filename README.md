@@ -74,8 +74,9 @@ install.packages("codep")
 install.packages("adegraphics")
 install.packages("ape")
 install.packages("car")
-
+install.packages("sp")
 ```
+
 ### For lecture 6: Genomic data preparation + preliminary analyses
 ```{r}
 if (!require("devtools")) install.packages("devtools")
