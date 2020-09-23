@@ -43,8 +43,8 @@ Bayescan is a command line based open source software that aim to detect natural
 ## Install [SamBada](https://www.epfl.ch/labs/lasig/page-101934-en-html/sambada/)
 Samβada is an integrated software for landscape genomic analysis of large datasets.
 
-## Log in to the cloud 
-For knowning how to log in to the cloud please check this [link](https://speciationgenomics.github.io/logging_on/)
+## LOG IN to the cloud 
+All explanations on how to log in to the cloud are indicated in this [link](https://speciationgenomics.github.io/logging_on/)
 All softwares (except R and the PR packages required for the class) will be available on the cloud.
 
 ## R software: install R packages 
