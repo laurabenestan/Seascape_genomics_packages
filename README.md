@@ -102,3 +102,4 @@ Verify that package gdsfmt was installed and that you have package SeqArray vers
 ```{r}
 devtools::package_info(pkgs = "SeqArray")
 ```
+### How to log in to the cloud please check this [link](https://speciationgenomics.github.io/logging_on/)
