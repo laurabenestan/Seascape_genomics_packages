@@ -32,9 +32,9 @@ ADMIXTURE is a software tool for maximum likelihood estimation of individual anc
 R studio has developped an integrated development environment for R, with a console that supports direct code execution.
 
 ```{r, engine = 'bash', eval = FALSE}
-brew cask install xquartz
-brew cask install r
-brew cask install --appdir=/Applications rstudio
+brew install xquartz
+brew install r
+brew install --appdir=/Applications rstudio
 ```
 
 ## Install [BayeScan](http://cmpg.unibe.ch/software/BayeScan/download.html) 
