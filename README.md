@@ -107,3 +107,10 @@ Verify that package gdsfmt was installed and that you have package SeqArray vers
 ```{r}
 devtools::package_info(pkgs = "SeqArray")
 ```
+
+Some packages are best downloaded using github:
+```{r}
+library("devtools")
+install_github("jdstorey/qvalue")
+devtools::install_github("whitlock/OutFLANK")
+```
