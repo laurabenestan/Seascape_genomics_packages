@@ -16,8 +16,8 @@ done
 
 ## Install JAVA
 ```{r, engine = 'bash', eval = FALSE}
-brew cask install java
-brew cask info java
+brew install java
+brew info java
 ```
 
 ## Install [PGDSpider](http://www.cmpg.unibe.ch/software/PGDSpider/)
