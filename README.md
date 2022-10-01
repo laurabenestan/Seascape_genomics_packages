@@ -9,6 +9,8 @@ xcode-select --install
 brew install libgit2
 pip3 install pygit2
 brew install libxml2
+brew install gsl 
+brew install gcc
 ```
 
 ## Install [VCFTOOLS](http://vcftools.sourceforge.net/)
