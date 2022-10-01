@@ -5,6 +5,7 @@ Useful software and programs to perform seascape genomics analyses
 ```{r, engine = 'bash', eval = FALSE}
 brew update
 brew upgrade
+xcode-select --install
 brew install libgit2
 pip3 install pygit2
 brew install libxml2
