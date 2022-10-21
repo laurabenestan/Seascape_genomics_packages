@@ -11,6 +11,7 @@ pip3 install pygit2
 brew install libxml2
 brew install gsl 
 brew install gcc
+brew install gdal
 ```
 
 ## Install [CMAKE] https://cmake.org/download/
@@ -101,6 +102,8 @@ install.packages("car")
 install.packages("sp")
 install.packages("marmap")
 install.packages("viridis") 
+install.packages('terra', configure.args = '--with-gdal-config=/opt/homebrew/bin/gdal-config --with-geos-config=/opt/homebrew/Cellar/geos/3.11.0/bin/geos-config --with-proj-include=/opt/homebrew/Cellar/proj/9.1.0/include --with-proj-lib=/opt/homebrew/Cellar/proj/9.1.0/lib', configure.vars = 'GDAL_DATA=/opt/homebrew/opt/gdal/share/gdal/')
+install.packages('sf', configure.args = '--with-gdal-config=/opt/homebrew/bin/gdal-config --with-geos-config=/opt/homebrew/Cellar/geos/3.11.0/bin/geos-config --with-proj-include=/opt/homebrew/Cellar/proj/9.1.0/include --with-proj-lib=/opt/homebrew/Cellar/proj/9.1.0/lib', configure.vars = 'GDAL_DATA=/opt/homebrew/opt/gdal/share/gdal/')
 ```
 
 ### For lecture 6 to 8
