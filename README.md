@@ -1,6 +1,7 @@
 # Install homebrew
-
+```{r, engine = 'bash', eval = FALSE}
 [/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"]
+```
 
 # Seascape_genomics_packages
 Useful software and programs to perform seascape genomics analyses
