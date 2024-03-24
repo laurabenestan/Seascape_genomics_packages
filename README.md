@@ -17,6 +17,9 @@ brew install libxml2
 brew install gsl 
 brew install gcc
 brew install gdal
+brew install oracle-jdk --cask
+brew install pkg-config
+brew install libgd
 ```
 
 ## Install [CMAKE] https://cmake.org/download/
@@ -44,9 +47,22 @@ brew info java
 PGDSpider is a data conversion tool for population genetic and genomics programs. 
 It support a vast range of data types with the ability of parsing 33 and writing 36 different file formats
 
+### Install Miniconda
+
+```{r, engine = 'bash', eval = FALSE}
+mkdir -p ~/miniconda3
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+~/miniconda3/bin/conda init bash
+~/miniconda3/bin/conda init zsh
+```
 
 ## Install [ADMIXTURE](http://software.genetics.ucla.edu/admixture/)
 ADMIXTURE is a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets. It uses the same statistical model as STRUCTURE but calculates estimates much more rapidly using a fast numerical optimization algorithm.
+```{r, engine = 'bash', eval = FALSE}
+conda install bioconda::admixture
+```
 
 ## Install [R studio](https://www.rstudio.com/products/rstudio/download/)
 R studio has developped an integrated development environment for R, with a console that supports direct code execution.
