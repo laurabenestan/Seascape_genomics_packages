@@ -73,6 +73,15 @@ brew install r
 brew install --appdir=/Applications rstudio
 ```
 
+## Install R packages with conda
+```{r, engine = 'bash', eval = FALSE}
+conda create -c conda-forge -n my_r_env r-essentials r-base r-sf r-rnetcdf r-rgeos r-rgdal
+conda activate my_r_env
+conda install conda-forge::r-devtools
+conda install bioconda::r-dartr
+```
+
+
 ## Install [BayeScan](http://cmpg.unibe.ch/software/BayeScan/download.html) 
 Bayescan is a command line based open source software that aim to detect natural selection from population based genetic data.
 
