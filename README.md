@@ -20,6 +20,7 @@ brew install gdal
 brew install oracle-jdk --cask
 brew install pkg-config
 brew install libgd
+brew install gawk file-formula
 ```
 
 ## Install [CMAKE] https://cmake.org/download/
